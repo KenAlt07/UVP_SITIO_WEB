@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, #fed900,#ec7b24,#e80032,#91268f);
+    color: aliceblue;
+}
+header{
+    display: flex;
+    justify-items: center;
+}
+.divImg{
+    flex: 1;
+}
+.divTítulo
+{
+   flex: 2;
+}
+h2{
+    padding-left: 11%;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    background-color: rgb(41, 0, 80);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(41, 0, 80);
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav ul li a:hover{
+    color: rgb(41, 0, 80);
+}
+nav ul li:hover{
+    background-color: rgb(255, 255, 255);
+    color: blueviolet;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    flex: 20%;
+    padding: 10px;
+    background: linear-gradient(to right,black,rgb(52, 49, 49));
+    color: aliceblue;
+    text-align: center;
+}
+section{
+    flex: 80%;
+    background-color: rgb(52, 49, 49);
+    color: aliceblue;
+}
+article{
+    margin-top: 20px;
+    padding: 10px;
+}
+article p{
+    text-align: justify;
+}
+footer{
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(41, 0, 80);
+}
+.ubicacion_puebla{
+    background: linear-gradient(to right,#e80032,#fed900)
+}
+.ubicacion_tehuacan{
+    background: linear-gradient(to right,#ec7b24,#91268f)
+}
+.licenciaturas_ingenierias{
+    background: linear-gradient(to right,#91268f,#e80032)
+}
+.entrar_uvp{
+    background: linear-gradient(to right,#fed900,#e80032,#ec7b24)
+}
+.complejos{
+    background: linear-gradient(to right,#91268f,#e80032,#ec7b24,#fed900)
+}
